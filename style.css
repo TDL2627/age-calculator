@@ -1,3 +1,13 @@
 body{
      background-color: blueviolet;
 }
+h1{
+    color :aqua;
+    padding-left:25%;
+    font-family: 'Sigmar One', cursive;
+    animation: wobble-hor-bottom 2s infinite both;
+}
+.wobble-hor-bottom {
+	-webkit-animation: wobble-hor-bottom 2s infinite both;
+	        animation: wobble-hor-bottom 2s infinite both;
+}
