@@ -5,3 +5,7 @@ function funktion(a,b){
 if(uAge>=2021){
     console.log("what the hell?..something is wrong")
 };
+window.onload = function(){
+    var uAge = prompt("What's your name?");
+    document.getElementById('output').innerHTML = lengthOfName;
+};
